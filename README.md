@@ -101,6 +101,24 @@ You can modify the training parameters in `config/config.yaml`:
 - Learning rate
 - Warmup ratio
 
+### Planned Improvements
+- [ ] Input Validation
+  - CSV format validation
+  - Character name verification
+  - Required columns validation
+- [ ] Testing
+  - Data processing tests
+  - Training pipeline tests
+  - Config validation tests
+- [ ] Documentation
+  - Custom dataset preparation guide
+  - Supported dialogue formats
+  - Character selection best practices
+- [ ] Features
+  - Multiple dialogue format support
+  - Model evaluation metrics
+  - Data preprocessing options
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
