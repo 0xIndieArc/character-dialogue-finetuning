@@ -1,6 +1,6 @@
 # Character Dialogue Fine-tuning
 
-This project provides tools to fine-tune Large Language Models (LLMs) to emulate characters from movie scripts. It uses the Together AI platform to fine-tune a Llama 2 model using dialogue from movies.
+This project provides tools to fine-tune Large Language Models (LLMs) to emulate characters from movie scripts. It uses the Together AI platform to fine-tune a Llama model using dialogue from movies.
 
 ## Overview
 
