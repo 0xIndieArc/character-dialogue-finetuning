@@ -1,0 +1,20 @@
+# Model configuration
+model:
+  base_model: "togethercomputer/llama-2-7b-chat"
+  n_epochs: 3
+  batch_size: 8
+  learning_rate: 1e-5
+  warmup_ratio: 0.1
+
+# Training configuration
+training:
+  prompt_template: "<|im_start|>user\n{prompt}<|im_end|>\n<|im_start|>assistant\n{completion}<|im_end|>"
+
+# Character configuration
+character:
+  target_speaker: "Theodore"
+  dataset_url: "https://huggingface.co/datasets/HaltiaAI/Her-The-Movie-Samantha-and-Theodore-Dataset/raw/main/Theodore%20%E2%99%A5%20Samantha%20-%20CSV.csv"
+  speaker_column: "Speaker"
+  text_column: "Response"
+  other_speaker_column: "Speaker "
+  other_text_column: "Prompt" 
